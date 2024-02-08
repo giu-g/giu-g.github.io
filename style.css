@@ -1,0 +1,171 @@
+body {
+    background-color: white;
+   }
+
+header{
+    background-color: black;
+    padding: 1%;
+    text-align: center;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3)
+}
+
+.header-tittle{
+    font-family: Classy-Vogue;
+    color: white;
+    font-size: xx-large;
+}
+
+.header-subtittle{
+    font-family: Classy-Vogue;
+    color: white;
+    font-size:400%;
+    margin-top: 0%;
+}
+
+@font-face {
+    font-family: Classy-Vogue;
+    src: url(./fonts/Classyvogueregular.ttf)
+}
+
+.intro-box{
+    margin-top: 5%;
+    background-color: rgb(0, 0, 0);
+    padding: 1%;
+    text-align: center;
+    box-shadow: 0px 12px 18px -6px rgba(0,0,0,0.3)
+}
+
+.intro-text{
+    font-family: Oceanside;
+    color: white;
+    font-size: large;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: justify;
+    padding: 2%;
+}
+
+@font-face {
+    font-family: LEMONMILK-Medium;
+    src: url(./fonts/LEMONMILK-Medium.otf) format("opentype");
+}
+@font-face {
+    font-family: LEMONMILK-Light;
+    src: url(./fonts/LEMONMILK-Light.otf) format("opentype");
+}
+
+@font-face {
+    font-family: Oceanside;
+    src: url(./fonts/OceansideTypewriter.ttf) 
+}
+
+.citacao{
+    font-family: Oceanside;
+    color: black;
+    font-size: large;
+    margin-left: 7%;
+    margin-right: 7%;
+    text-align: center;
+    padding-top: 6%;
+    font-style: italic;
+}
+
+.citacao-author{
+    font-family: Oceanside;
+    color: rgb(59, 59, 59);
+    font-size: large;
+    margin-left: 50%;
+    margin-right: 7%;
+    margin-top: 1%;
+}
+
+/*Exibição dos Trabalhos*/
+
+.work-tittle{
+    font-family: Classy-Vogue;
+    color: black;
+    font-size:200%;
+    margin-top: 7%;
+    text-align: center;
+}
+
+.work-box{
+    margin-top: 2%;
+    background-color: rgb(0, 0, 0);
+    padding: 1%;
+    text-align: center;
+    box-shadow: 6px 12px 18px -6px rgba(0,0,0,0.3);
+    border-radius: 1em;
+}
+
+table{
+    color: white;
+    padding: 1%;
+    font-size: large;
+    width: 100%;
+}
+
+caption{
+    text-align: center;
+    font-family: Classy-Vogue;
+    margin-top: 1%;
+    font-size: larger;
+}
+
+#trabalho{
+    width: 50%;
+    text-align: justify;
+    font-family: Oceanside;
+    font-size: medium;
+    padding-right: 2%;
+}
+
+#thumbnail{
+    width: 350px;
+    border-radius: 1em;
+}
+
+#linkgame {
+    font-family: LEMONMILK-Light;
+    color: white;
+    text-decoration: none;
+}
+
+#linkgame:hover {
+    font-family: LEMONMILK-Medium;
+    color: rgb(178, 23, 255);
+    text-decoration: none;
+}
+
+.footer-box{
+    margin-top: 5%;
+    background-color: rgb(74, 74, 74);
+    padding: 2%;
+}
+
+.table-footer-tittle{
+    font-size: large;
+    color: rgb(130, 130, 130);  
+    letter-spacing: 0.4mm;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-bottom: 2%;
+}
+
+.table-footer-text{
+    font-size: large;
+    color: rgb(210, 210, 210);  
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.footer-trademark{
+    font-size: smaller;
+    color: white;
+    text-align: center;
+    letter-spacing: 0.4mm;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#tabletwo{
+    align-items: center;
+    text-align: center;
+}
